@@ -1,5 +1,6 @@
-# dutcoin
+# Dutcoin
 
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/sX1mYq2Q/dutcoin-logo.png' border='0' alt='dutcoin-logo'/></a>
  
 
 # What is Dutcoin?
