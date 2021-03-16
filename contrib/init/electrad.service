@@ -1,0 +1,26 @@
+[Unit]
+Description=dutcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=dutcoin
+Group=dutcoin
+
+Type=forking
+PIDFile=/var/lib/dutcoind/dutcoind.pid
+
+ExecStart=/usr/bin/dutcoind -daemon -pid=/var/lib/dutcoind/dutcoind.pid \
+          -conf=/etc/dutcoin/dutcoin.conf -datadir=/var/lib/dutcoind
+
+ExecStop=-/usr/bin/dutcoin-cli -conf=/etc/dutcoin/dutcoin.conf \
+         -datadir=/var/lib/dutcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

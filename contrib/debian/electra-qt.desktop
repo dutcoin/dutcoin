@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=dutcoin
+Comment=dutcoin P2P Cryptocurrency
+Comment[fr]=dutcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=dutcoin, eşten eşe kriptografik sanal para birimi
+Exec=dutcoin-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/dutcoin;
+Categories=Office;Finance;

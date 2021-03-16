@@ -1,0 +1,6 @@
+usr/local/bin/dutcoin-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin16.xpm usr/share/pixmaps
+share/pixmaps/bitcoin128.png usr/share/pixmaps
+debian/dutcoin-qt.desktop usr/share/applications
+debian/dutcoin-qt.protocol usr/share/kde4/services/

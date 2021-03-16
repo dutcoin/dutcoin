@@ -1,0 +1,26 @@
+# /etc/conf.d/dutcoind: config file for /etc/init.d/dutcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/dutcoin/dutcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/dutcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dutcoind.pid"
+
+# Where to write dutcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/dutcoind"
+
+# User and group to own dutcoind process
+#BITCOIND_USER="dutcoin"
+#BITCOIND_GROUP="dutcoin"
+
+# Path to dutcoind executable
+#BITCOIND_BIN="/usr/bin/dutcoind"
+
+# Nice value to run dutcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
