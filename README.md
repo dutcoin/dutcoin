@@ -4,7 +4,7 @@
  
 
 # What is Dutcoin?
-dutcoin is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, dutcoin coin (dutcoin) is unique in its distribution. 
+Dutcoin is a Blockchain using the highly-secure and power-efficient NIST5 algorithm. Combining limited Proof-of-Work, dutcoin coin (dutcoin) is unique in its distribution. 
 
 <a name="specifications"></a>
 ## Technical Specifications
