@@ -124,7 +124,7 @@ public:
         nToCheckBlockUpgradeMajority = 10800; // Approximate expected amount of blocks in 7 days (1440*7.5)
         nMinerThreads = 0;
         nTargetTimespan = 15 * 60; // 15 minutes
-        nTargetSpacing = 64; // 64 seconds
+        nTargetSpacing = 640; // 640 seconds
         nMaturity = 10;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 45000000000 * COIN;
